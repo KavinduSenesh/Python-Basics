@@ -6,7 +6,6 @@ import numpy as np
 
 # Creating a numpy array
 array_1 = np.array([1, 2, 3])
-
 array_2 = np.array([4, 5, 6])
 
 he = np.square(array_1)
@@ -113,4 +112,4 @@ print(np.zeros((2, 3, 4)))
 print(np.full(8, 10))
 print(np.full((3, 4), 7))
 
-print(np.empty((2, 3)))
+print(np.empty((2, 3)))  
